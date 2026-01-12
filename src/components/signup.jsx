@@ -82,7 +82,7 @@ const Signup = () => {
       <CardHeader>
         <CardTitle>Signup</CardTitle>
         <CardDescription>
-          Create a new account if you haven&rsquo;t already
+          Create a new account if you haven&rsquo;t already.
         </CardDescription>
         {error && <Error message={error?.message} />}
       </CardHeader>
